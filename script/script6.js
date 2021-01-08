@@ -56,7 +56,7 @@ console.log(`f를 호출한 다음: x=${x}`);
 //결과
 //f를 호출하기 전: x=3
 //f 내부: x=3
-//f 내부: x=5 (할당 후)
+//f 내부: x=5 (할당 후) 
 //f를 호출한 다음: x=3
 
 //
@@ -71,10 +71,7 @@ console.log(`f를 호출하기 전: o.message = "${o.message}"`);
 f(o);
 console.log(`f를 호출한 다음: o.message = "${o.message}"`);
 //결과
-//f를 호출하기 전: o.message="초기 값"
-//f를 호출한 다음: o.message="f 안에서 수정함 (이전 값: '초기 값')"
-
-//
+//f를 호출하기 전: o.message="초기 값" 
 function f(o){
     o.message = "f에서 수정함";
     o = {
