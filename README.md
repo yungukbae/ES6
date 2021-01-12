@@ -1,5 +1,5 @@
 # ES6
-Javascript ECMA6
+Javascript ECMA2015
 
 branch
 ecma6 master 
